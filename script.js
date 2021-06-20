@@ -9,10 +9,10 @@ const target = '2021 6 21';
 
 function countDown() {
   const targetDate = new Date(target);
-  const currentData = new Date();
+  const currentDate = new Date();
 
   // 残りの時間を計算
-  const totalSeconds = (targetDate - currentData) / 1000;
+  const totalSeconds = (targetDate - currentDate) / 1000;
 
   const days = Math.floor(totalSeconds / 3600 / 24);
   const hours = Math.floor(totalSeconds / 3600) % 24;

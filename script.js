@@ -1,8 +1,8 @@
 // 要素を取得する
-const daysEl = document.getElementById('days');
-const hoursEl = document.getElementById('hours');
-const minsEl = document.getElementById('mins');
-const secondsEl = document.getElementById('seconds');
+const daysElm = document.getElementById('days');
+const hoursElm = document.getElementById('hours');
+const minsElm = document.getElementById('mins');
+const secondsElm = document.getElementById('seconds');
 
 //  目標としたい日時
 const target = '2022 1 1';
@@ -29,10 +29,10 @@ function countDown() {
   // 秒 = 60秒から溢れたものが残りの秒
   const seconds = Math.floor(totalSeconds % 60);
 
-  daysEl.innerHTML = days;
-  hoursEl.innerHTML = formatTime(hours);
-  minsEl.innerHTML = formatTime(mins);
-  secondsEl.innerHTML = formatTime(seconds);
+  daysElm.innerHTML = days;
+  hoursElm.innerHTML = formatTime(hours);
+  minsElm.innerHTML = formatTime(mins);
+  secondsElm.innerHTML = formatTime(seconds);
 }
 
 // 表示形式を整形する

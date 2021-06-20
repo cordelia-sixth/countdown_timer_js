@@ -31,18 +31,18 @@ h1 {
 }
 
 /* 数字部分 */
-.big-text {
+.time-text {
   font-weight: bold;
   font-size: 6rem;
   line-height: 1;
   margin: 1rem 2rem;
 }
 
-.countdown-el {
+.countdown-elm {
   text-align: center;
 }
 
 /* days, hours, mins, seconds の文字を変更 */
-.countdown-el span {
+.countdown-elm span {
   font-size: 1.2rem;
 }

@@ -5,7 +5,7 @@ const minsEl = document.getElementById('mins');
 const secondsEl = document.getElementById('seconds');
 
 //  目標としたい日時
-const target = '2021 6 23';
+const target = '2022 1 1';
 
 function countDown() {
   // 目標日時

@@ -17,8 +17,6 @@ function countDown() {
   // ミリ秒を秒になおす
   const totalSeconds = (targetDate - currentDate) / 1000;
 
-  console.log(totalSeconds);
-
   // 日 = 残り時間(秒) / 3600秒(1時間)ここで時間の単位に変換している / 24時間(1日)
   const days = Math.floor(totalSeconds / 3600 / 24);
 
